@@ -1,6 +1,50 @@
+/* --- 1. CONFIGURACIÓN GENERAL Y RESET BÁSICO --- */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+body {
+    color: #333;
+    background-color: #f9f9f9;
+    line-height: 1.6;
+}
+
+/* --- 2. HEADER Y NAVEGACIÓN (Flexbox) --- */
+.main-header {
+    background-color: #ffe4e4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+    box-shadow: 0 2px 5px #0000001a;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    height: 90px;
+    width: 100%;
+}
+
+.main-header .logo img {
+    height: 80px;
+    width: auto;
+    border-radius: 100px;
+}
+
+.main-header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.main-header nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.main-header nav ul li a:hover {
+    color: #d63384;
+}
