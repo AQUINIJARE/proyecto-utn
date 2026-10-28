@@ -271,3 +271,30 @@ body {
     width: 24px;
     height: 24px;
 }
+
+/* --- 8. MEDIA QUERIES PARA DISEÑO RESPONSIVO (BONUS) --- */
+
+@media (max-width: 768px) {
+    .main-header {
+        flex-direction: column;
+        height: auto;
+        padding: 1rem;
+        gap: 10px;
+    }
+
+    #hero h1 {
+        font-size: 1.8rem;
+    }
+
+    #cards, #galery, #form {
+        padding: 2rem 3%;
+    }
+
+    #form .botones-form {
+        flex-direction: column;
+    }
+
+    #form .botones-form button {
+        width: 100%;
+    }
+}
