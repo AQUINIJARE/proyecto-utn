@@ -46,9 +46,10 @@
           con mis clientas, pudiendo registrar los resultados que dejan a lo
           largo de los meses, con efecto duradero, otorgando brilo y nutrición.
           ¡Te invito a probarlos y registrar los tuyos!
-        </p>
-        </section>
-        <section id="cards">
+        </p>    
+    </section>
+        
+    <section id="cards">
         <h2>Productos</h2>
         <div class="cards-container">
           <article>
@@ -85,13 +86,128 @@
           </article>
         </div>
         </section>
-        <section>
-            <h2>Resultados</h2>
-        </section>
-        <section>
-            <h2>Contacto</h2>
-            <form></form>
-        </section>
+
+        <section id="galery">
+          <h2>Resultados</h2>
+          <div class="galery-container">
+          <figure>
+          <img src="assets/img/result/btx-intermedio.jpeg" alt="btx-intermedio" />
+          <figcaption>
+            Tratamiento de <strong>BTX Extreme</strong> en cabello con tinte
+            natural
+          </figcaption>
+        </figure>
+        <figure>
+          <img
+            src="assets/img/result/btx-largo-moderado.jpeg"
+            alt="btx-largo-moderado"
+          />
+          <figcaption>
+            Tratamiento de <strong>BTX Extreme</strong> en cabello con tinte
+            natural
+          </figcaption>
+        </figure>
+        <figure>
+          <img
+            src="assets/img/result/biotina-pelo-corto.jpeg"
+            alt="biotina-pelo-corto"
+          />
+          <figcaption>
+            Tratamiento de <strong>Biotina & Colágeno</strong> en cabello corto
+            teñido
+          </figcaption>
+        </figure>
+        <figure>
+          <img
+            src="assets/img/result/hidratacion-pelo-largo.jpeg"
+            alt="hidratacion-pelo-largo"
+          />
+          <figcaption>
+            Tratamiento de <strong>Coco y Argán</strong> en cabello largo teñido
+          </figcaption>
+        </figure>
+        <figure>
+          <img src="assets/img/result/largo-lacio.jpeg" alt="largo-lacio" />
+          <figcaption>
+            Tratamiento de <strong>Coco y Argán</strong> en cabello largo teñido
+          </figcaption>
+        </figure>
+        <figure>
+          <img src="assets/img/result/melena-brillo.jpeg" alt="melena-brillo" />
+          <figcaption>
+            Tratamiento de <strong>BTX Extreme</strong> en cabello corto con
+            tinte natural
+          </figcaption>
+        </figure>
+        <figure>
+          <img
+            src="assets/img/result/ampolla-pelo-corto.jpeg"
+            alt="ampolla-pelo-corto"
+          />
+          <figcaption>
+            Tratamiento con <strong>Ampollas</strong> en cabello corto teñido
+          </figcaption>
+        </figure>
+        <figure>
+          <img
+            src="assets/img/result/tratamiento-nutricion.jpeg"
+            alt="tratamiento-nutricion"
+          />
+          <figcaption>
+            Tratamiento de <strong>Keratina y Argán</strong> para cabello largo
+            teñido y dañado
+          </figcaption>
+        </figure>
+        </div>
+      </section>
+    
+       <section id="form">
+        <h2>Contacto</h2>
+        <form>
+          <div>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="nombre" placeholder="Ingrese su nombre" required>
+          </div>
+          <div>
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" placeholder="Ingrese su e-mail" required>
+          </div>
+          <div>
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" placeholder="Número de contacto">
+          </div>
+          <div>
+            <label for="motivo">Motivo de contacto:</label>
+            <select id="motivo" name="motivo">
+              <option value="consulta">Consulta general</option>
+              <option value="productos">Compra de productos</option>
+              <option value="turnos">Reserva de turnos</option>
+            </select>
+          </div>
+          <div>
+            <p>¿Cómo preferís que te contactemos?</p>
+            <label>
+              <input
+                type="radio"
+                name="contacto-pref"
+                value="whatsapp"
+                checked>WhatsApp</label>
+            <label>
+              <input
+                type="radio"
+                name="contacto-pref"
+                value="email">Email</label>
+          </div>
+          <div>
+            <label for="comentarios">Comentarios:</label>
+            <textarea id="comentarios" name="comentarios" rows="4" placeholder="Deja tu comentario"></textarea>
+          </div>
+          <div class="botones-form">
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpiar</button>
+          </div>
+        </form>
+      </section>
     </main>
 
     <footer>
